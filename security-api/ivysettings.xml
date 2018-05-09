@@ -1,0 +1,12 @@
+<ivysettings>
+   <settings defaultResolver="repochain" />
+   <resolvers>
+    <chain name="repochain">
+	    <ibiblio m2compatible="true" name="mavenrepo"/>
+	    <filesystem name="ivyrepolocal">
+	        <artifact pattern="${user.home}/ivyrepolocal/[module]/[artifact]-[revision].[ext]" />
+	        <ivy pattern="${user.home}/ivyrepolocal/[module]/ivy-[revision].xml" />
+	    </filesystem>
+    </chain>
+   </resolvers>
+</ivysettings>

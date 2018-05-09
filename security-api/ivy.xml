@@ -1,0 +1,15 @@
+<ivy-module version="2.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+	<info module="security-api" organisation="br.com.caelum" />
+	
+	 <publications>
+          <artifact name="security-api" type="jar" ext="jar"/>
+     </publications>
+	
+	<dependencies>
+		<dependency org="org.springframework" name="spring-core" rev="3.1.1.RELEASE" conf="default" />
+	</dependencies>
+
+</ivy-module>
